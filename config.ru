@@ -1,3 +1,7 @@
+$:.push('/Users/johny/.rvm/gems/ruby-1.9.2-p290@3.1/gems/rack-1.3.0/lib/')
+$:.push('/Users/johny/.rvm/gems/ruby-1.9.2-p290@3.1/gems/rack-legacy-0.2.0/lib/')
+$:.push('/Users/johny/.rvm/gems/ruby-1.9.2-p290@3.1/gems/rack-rewrite-1.0.2/lib/')
+
 require 'rack'
 require 'rack-legacy'
 require 'rack-rewrite'
