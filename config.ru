@@ -10,12 +10,14 @@ INDEXES = ['index.html','index.php', 'index.cgi']
 
 use Rack::Rewrite do
   rewrite %r{(.*/$)}, lambda {|match, rack_env|
+    to_return = rack_env['PATH_INFO']
     INDEXES.each do |index|
       if File.exists?(File.join(Dir.getwd, rack_env['PATH_INFO'], index))
-        return rack_env['PATH_INFO'] + index
+        to_return = rack_env['PATH_INFO'] + index
       end
     end
-    rack_env['PATH_INFO']
+    
+    to_return
   }
 end
 
