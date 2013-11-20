@@ -15,4 +15,4 @@ LocalJumpError: unexpected return
 ~/Documents/Dropbox/Library/code/the_app/config.ru:13:in `each'
 ~/Documents/Dropbox/Library/code/the_app/config.ru:13
 
-So I modified it to not to have 'return' somewhre there and used a variable to return at the end of the .each loop.
+So I modified it to not to have 'return' somewhere there and used a variable to return at the end of the `each` loop.
