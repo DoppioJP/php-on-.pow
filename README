@@ -8,7 +8,7 @@ $:.push('/Users/johny/.rvm/gems/ruby-1.9.2-p180@3.1/gems/rack-rewrite-1.0.2/lib/
 
 (johny being an example user as I am not Johny)
 
-The primary code was working fine on 32-bit machine with ruby 1.9.2-p180 but when I moved to 64-bit machine with brand new rvm set up and ruby 1.9.2-p290 I had an error saying:
+The primary code was working fine on 32-bit machine with ruby 1.9.2-p180 but when I moved to 64-bit machine with brand new rvm setup and ruby 1.9.2-p290 I had an error saying:
 
 LocalJumpError: unexpected return
 ~/Documents/Dropbox/Library/code/the_app/config.ru:15
